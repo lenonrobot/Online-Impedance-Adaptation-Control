@@ -1,7 +1,7 @@
 """
 Xiaofeng Xiong and Cheng Fang, "From Humans to Robots and Back: 
 An Online Impedance Adaptation Control for Arm Control Applicaions",
-submited to IEEE RAM, 2022.
+submited to Biomimetic Intelligence and Robotics.
 
 """
 import numpy as np
