@@ -1,6 +1,6 @@
 """
-Xiaofeng Xiong and Cheng Fang, "From Humans to Robots and Back: 
-An Online Impedance Adaptation Control for Arm Control Applicaions",
+Xiaofeng Xiong and Cheng Fang, "Closing a Research Loop between Robots and Biomechanics: 
+an Online Impedance Adaptation Controller for Decoding Skill Intelligence",
 submited to Biomimetic Intelligence and Robotics.
 
 """
