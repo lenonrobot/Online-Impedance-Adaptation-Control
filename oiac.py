@@ -1,7 +1,6 @@
 """
-Xiaofeng Xiong and Cheng Fang, "Closing a Research Loop between Robots and Biomechanics: 
-an Online Impedance Adaptation Controller for Decoding Skill Intelligence",
-submited to Biomimetic Intelligence and Robotics.
+Xiong, X., & Fang, C. (2023). An Online Impedance Adaptation Controller for Decoding Skill Intelligence. 
+Biomimetic Intelligence and Robotics, 3(2), [100100]. https://doi.org/10.1016/j.birob.2023.100100
 
 """
 import numpy as np
