@@ -61,7 +61,7 @@ if __name__ == "__main__":
 		#get robot arm joint angles and velocity
   		#NOTE THAT the online impedance adaptation control requires the feedforward control tau_ff, e.g., 
     		#(1) linear (tracking) error-based control, e.g., tau_ff = a * e, a is the scalar constant, e  is the error between desired and real joint position.
-		#(2)data-driven learning or opmtimization of feedforward joint torque(s) tau_ff
+		#(2) data-driven learning or opmtimization of feedforward joint torque(s) tau_ff
 
 		self.ada_imp.(q, q_d, dq, dq_d) #undate stiffness (self.k_mat) and damping (self.b_mat) matrices 
 
