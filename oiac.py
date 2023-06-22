@@ -45,7 +45,7 @@ class ada_imp_con( ):
 		return (self.dq - self.dq_d)
 
 	def gen_track_err(self):#tracking error, see Eq. (3)
-		return (self.gen_vel_err() + self.k * self.gen_pos_err())
+		return (self.k * self.gen_vel_err() + self.gen_pos_err())
 
 	def gen_ad_factor(self):#adaptation scalar, see Eq. (3)
 		return self.a/(1.0 + self.b * la.norm(self.gen_track_err()) * la.norm(self.gen_track_err()))
